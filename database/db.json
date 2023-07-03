@@ -99,13 +99,13 @@
       "id": 3
     },
     {
-      "name": "user1",
+      "name": "Raj Tupe",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPYaVv2uofL7eEzRdLboNw1raXUBxHNFRPQw&usqp=CAU",
       "specialization": "Pediatrician",
       "experience": "3",
-      "location": "wsdf",
-      "date": "2023-07-13",
-      "slots": "34",
+      "location": "delhi",
+      "date": "2023-07-22",
+      "slots": "3",
       "fee": "34",
       "id": 4
     }
