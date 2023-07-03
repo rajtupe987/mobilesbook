@@ -1,0 +1,113 @@
+{
+  "users": [
+    {
+      "username": "RajTupe",
+      "email": "rajtupe987@gmail.com",
+      "password": "1234",
+      "isDoctor": true,
+      "id": 1
+    },
+    {
+      "username": "raha",
+      "email": "fw21@1031",
+      "password": "1234",
+      "isDoctor": true,
+      "id": 2
+    },
+    {
+      "username": "hemakala",
+      "email": "S@gmail.com",
+      "password": "1234",
+      "isDoctor": false,
+      "id": 3
+    },
+    {
+      "username": "ritesh",
+      "email": "r@mail.com",
+      "password": "1234",
+      "isDoctor": false,
+      "id": 4
+    },
+    {
+      "username": "RajTupe",
+      "email": "dummy@gmail.com",
+      "password": "2345",
+      "isDoctor": false,
+      "id": 5
+    },
+    {
+      "username": "karan",
+      "email": "karan@gmail.com",
+      "password": "1234",
+      "isDoctor": true,
+      "id": 6
+    },
+    {
+      "username": "neha",
+      "email": "neha@mail.com",
+      "password": "1234",
+      "isDoctor": false,
+      "id": 7
+    },
+    {
+      "username": "wamika",
+      "email": "wamika@mail.com",
+      "password": "1234",
+      "isDoctor": true,
+      "id": 8
+    },
+    {
+      "username": "mohit",
+      "email": "m@mail.com",
+      "password": "111",
+      "isDoctor": false,
+      "id": 9
+    }
+  ],
+  "doctors": [
+    {
+      "name": "Raj Tupe",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPYaVv2uofL7eEzRdLboNw1raXUBxHNFRPQw&usqp=CAU",
+      "specialization": "Pediatrician",
+      "experience": "32",
+      "location": "sdfads",
+      "date": "2023-07-12",
+      "slots": "3",
+      "fee": "3",
+      "id": 1
+    },
+    {
+      "name": "raha",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAKAAvgMBIgACEQEDEQH/xAAbAAACAgMBAAAAAAAAAAAAAAAEBQMGAQIHAP/EAD8QAAIBAwIDBgQEBAQEBwAAAAECAwAEEQUhBhIxEyJBUWFxFDKBkQcjobEzQlLRFRZiwSRyguElJlNzkqLC/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAECAwQF/8QAIxEAAgICAgMAAgMAAAAAAAAAAAECEQMhEjETQVEEIjJhgf/aAAwDAQACEQMRAD8A7DJ8pr0hyufDFeY9/foRQmp39vp1q9xcyBIoxkk+NMzJYyexlB6da4hfyyavxzLPCBIsFwiKPDZgD/vVmPFOtcRXcttwzZ5iAOXZuRMfXc/TFKbnhrXO3QpaWPxBOS0KGNkPnzAitYquyG7WjrNxAkjgkVJHZxoPeqHwfxTqQ1iTh7iLJu0z2MrABjgZKsRsdtwfKuhqQyjBqGqKTtA62iFxgUYNhgdK1jwCfOtxvUlGrAEb1zvTJ2ttTvbRiR2c7ge3McV0RunrXMeJmOncZOQhKXCLJt9j+1RKPJG2Gai3ZcYmDLkHIrel1jdRsijtFBIzgmmdsnxEnIh6bn0rHizdtInsoO0ftG+VenqaPJrAUIAijAFereMaVHJOfJ2LdfRmtI+U47+/60nh0Tth2krEZ9asOqpz2TY6gg/rUceAgUeVaJiukIL3SQkRS2LBz/MDQq6Zqlpakx6jcCQ9MyZAP1q2ogG7Cl1/zzzJbxbZ6keFOxWcz4d4k1TU+IGivmWSZwkPMicuyltyB711X+HGkfU+N",
+      "specialization": "Psychiatrist",
+      "experience": "3",
+      "location": "sdfsf",
+      "date": "2023-07-19",
+      "slots": "33",
+      "fee": "3434",
+      "id": 2
+    },
+    {
+      "name": "bittu",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFBcVFBQYGBcZGB0aGRoXGiIaGhkZIBoZHSIZGRwaICwjHSArHhgaJDYkKS0vMzMzGiI4PjgyPSwyMzIBCwsLDw4PHhISHjMlIyo0MjQyMjsyMjIvLzIyMjIyNTI0MzIvMjIyMjQvMi8yMjQyMi8yMjIyMjQyMzIyMjIyMv/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAwQFBgcBAgj/xABGEAACAQIEAwYCBggFAwIHAAABAhEAAwQSITEFQVEGEyJhcYEykQdCUnKhsRQjM2KCkqLBssLR4fAVJPFDYyU0RFNzo9L/xAAaAQEAAwEBAQAAAAAAAAAAAAAAAQIEAwUG/8QALhEAAgIBBAEBBgYDAQAAAAAAAAECEQMEEiExQVETIjJhgaEFQnGR4fAzsdEU/9oADAMBAAIRAxEAPwDW6JopC7cIMCuB3FwaJpr37Ud+1LFDqaKRtux9KWoAoooJoDlFczjqPnRnHUfOgO0VzOOo+dGcdR86A7RXM46j50Zx1HzoDtFczjqPnRnHUfOgO0VzOOo+dGcdR86A7RXM46j50Zx1HzoD1RQDO1FCAoBopB3YGhItNdpr37Ud+1LFDqaAaQs3CTrS4oAooooANNb/AMVOqa3/AIqMITr0iT6V22k+lOlEDaoSJbAACBXaKKkqFR+LYlo5CpCkL+HDazBqJK0Wi6Ywopz+hnqKP0M9RVNrL7kNqa2sWD8Qg5o01H7Q2wZ05j8ak/0M9RSQ4UsAaGNZI1nNmn1za+tNrG5DLDYrMFBHiKgkDaCDrvtKkf8Amvd3EBTBB+HNPKAQOv7w8qcf9JGoJBBUrEaBTEqI1gxXtuGgmTBPX3B/MA+wptY3IZ2sSGDFVJyx08Uoraa9GFeFxinkeX9TlFO+oJXcciDT/wD6aII8MEQRGhERqPTSgcMGm2nl7/3PzptY3",
+      "specialization": "Dermatologist",
+      "experience": "3",
+      "location": "fasfdaf",
+      "date": "2023-07-26",
+      "slots": "3",
+      "fee": "343",
+      "id": 3
+    },
+    {
+      "name": "user1",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPYaVv2uofL7eEzRdLboNw1raXUBxHNFRPQw&usqp=CAU",
+      "specialization": "Pediatrician",
+      "experience": "3",
+      "location": "wsdf",
+      "date": "2023-07-13",
+      "slots": "34",
+      "fee": "34",
+      "id": 4
+    }
+  ]
+}
